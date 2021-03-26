@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
@@ -86,7 +86,7 @@ p{
 }
 
 .text{
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .lado{
