@@ -9,6 +9,11 @@ html,body{
     background-color: #1e2233;
     height: 100%;
 }
+
+.parent{
+    display: flex;
+}
+
 .sidebar{
     width: 300px;
     background-color:#24283d;
@@ -33,4 +38,22 @@ html,body{
 
 .menu{
     margin-top: 100%;
+}
+
+.content{
+    color: #f8f8f8;
+    position: absolute;
+    left: 300px;
+    width: 80%;
+    height: 100%;
+    top: 40%;
+    padding:0 3%;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h1 > span{
+    color:#50fa7b;
 }
