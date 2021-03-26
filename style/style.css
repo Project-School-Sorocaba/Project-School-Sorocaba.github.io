@@ -12,7 +12,7 @@ html,body{
     width: 30%;
     height: 100%;
     position: fixed;
-    background-color: purple;
+    background-color:#44475A;
     display: flex;
     justify-content: center;
 }
