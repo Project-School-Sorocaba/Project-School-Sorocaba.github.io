@@ -7,32 +7,24 @@
 html,body{
     height: 100vh;
 }
-
 .sidebar{
-    width: 30%;
-    height: 100%;
-    position: fixed;
+    width: 300px;
     background-color:#44475A;
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    display: flex;  
+    flex-direction: column
 }
 
-.menu{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.menu a{
-    padding: 10px 100vh;
-    color: white;
-    font-size: 23px;
+.sidebar a{
+    color: black;
+    padding: 16px;
     text-decoration: none;
 }
-
-.menu a:hover{
-    background-color: white;
+.sidebar a:hover{
+    background-color: black;
     color:black;
 }
+
+    
