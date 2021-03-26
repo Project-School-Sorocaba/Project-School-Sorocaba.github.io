@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;   
+    font-family:'Saira Extra Condensed', sans-serif;;
 }
 
 html,body{
-    height: 100vh;
+    background-color: #1e2233;
+    height: 100%;
 }
 .sidebar{
     width: 300px;
-    background-color:#44475A;
+    background-color:#24283d;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -18,15 +20,17 @@ html,body{
 
 .sidebar a{
     display: block;
-    color: black;
-    padding: 16px;
+    color: #f8f8f8;
+    padding: 10px;
     text-decoration: none;
     text-align: center;
-    
+    font-size: 30px;
 }
 .sidebar a:hover{
-    background-color: black;
-    color:black;
+    background-color: #1e2233;
+    color:f8f8f8;
 }
 
-    
+.menu{
+    margin-top: 100%;
+}
