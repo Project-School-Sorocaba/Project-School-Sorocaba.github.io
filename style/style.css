@@ -13,14 +13,16 @@ html,body{
     position: fixed;
     height: 100%;
     overflow: auto;
-    display: flex;  
-    flex-direction: column
+
 }
 
 .sidebar a{
+    display: block;
     color: black;
     padding: 16px;
     text-decoration: none;
+    text-align: center;
+    
 }
 .sidebar a:hover{
     background-color: black;
