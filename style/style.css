@@ -161,7 +161,9 @@ p{
     }
 
     .lado h2 > a{
-        margin-left: -80%;
+        justify-content: center;
+        align-items: center;
+        margin-left: -85%;
         left: -80%;
         font-size: 25px;
     }
