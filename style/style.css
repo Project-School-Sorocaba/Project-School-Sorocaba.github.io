@@ -132,7 +132,9 @@ p{
     }
 
     h1{
-        margin-left: -40%;
+        align-items: center;
+        left: -100%;
+        margin-left:-100%;
         font-size: 30px;
     }    
     
@@ -142,22 +144,25 @@ p{
     }    
 
     .text p{
-        margin-left: -40%;
+        align-items: center;
+        left: -100%;
+        margin-left: -100%;
         font-size: 25px;
     }
 
     .lado{
-        gap: 85px;
+        gap: 185px;
+        left: -100%;
+        margin-left: -65%;
     }
 
     .lado p{
-        margin-left: -100%;
-        left: -70%;
         font-size: 25px;
     }
 
     .lado h2 > a{
-        margin-left: -30%;
+        margin-left: -100%;
+        left: -80%;
         font-size: 25px;
     }
 }
