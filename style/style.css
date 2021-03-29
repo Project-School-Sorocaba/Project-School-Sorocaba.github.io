@@ -5,6 +5,8 @@
     font-family:'Saira Extra Condensed', sans-serif;;
 }
 
+
+
 html,body{
     background-color: #1e2233;
     scroll-behavior: smooth;
@@ -100,6 +102,7 @@ p{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 75px;
+    padding: 18px;
     
 }
 
@@ -121,3 +124,40 @@ p{
 .borda{
     border: 1px solid red;
 } 
+
+ @media screen and (max-width: 901px){
+
+    .sidebar{
+        display: none;
+    }
+
+    h1{
+        margin-left: -40%;
+        font-size: 30px;
+    }    
+    
+    h1 > span{
+        margin-left: -0.01%;
+        font-size: 30px;
+    }    
+
+    .text p{
+        margin-left: -40%;
+        font-size: 25px;
+    }
+
+    .lado{
+        gap: 85px;
+    }
+
+    .lado p{
+        margin-left: -100%;
+        left: -70%;
+        font-size: 25px;
+    }
+
+    .lado h2 > a{
+        margin-left: -30%;
+        font-size: 25px;
+    }
+}
