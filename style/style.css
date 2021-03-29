@@ -133,8 +133,8 @@ p{
 
     h1{
         align-items: center;
-        left: -90%;
-        margin-left:-90%;
+        left: -80%;
+        margin-left:-80%;
         font-size: 30px;
     }    
     
@@ -145,14 +145,14 @@ p{
 
     .text p{
         align-items: center;
-        left: -90%;
-        margin-left: -90%;
+        left: -80%;
+        margin-left: -80%;
         font-size: 25px;
     }
 
     .lado{
         gap: 185px;
-        left: -90%;
+        left: -80%;
         margin-left: -60%;
     }
 
@@ -161,7 +161,7 @@ p{
     }
 
     .lado h2 > a{
-        margin-left: -90%;
+        margin-left: -80%;
         left: -80%;
         font-size: 25px;
     }
