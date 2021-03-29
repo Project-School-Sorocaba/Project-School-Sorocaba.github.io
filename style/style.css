@@ -8,6 +8,7 @@
 html,body{
     background-color: #1e2233;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -23,7 +24,8 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid #4f5986;
 }
 
-h1{
+/* h1{
+    font-size:3vw;
     font-size: 50px;
 }
 
@@ -33,20 +35,34 @@ h1 > span{
 
 p{
     font-size: 30px;
-}
+} */
 
 
 
 .parent{
-    display: flex;
+    min-width: 100%;
+    display: block;
+}
+
+.parent h1{
+    font-size:2.3vw;
+}
+
+.parent h1 > span{
+    font-size: 2.3vw;
+    color:#50fa7b;
+}
+
+.parent p{
+    font-size: 2vw;
 }
 
 .sidebar{
-    width: 300px;
+    width: 250px;
     background-color:#24283d;
     position:fixed;
-    height: 100vh;
-    overflow: auto;
+    height: 100%;
+    overflow:visible;
 
 }
 
@@ -92,7 +108,7 @@ p{
 .lado{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 75px;
     
 }
 
