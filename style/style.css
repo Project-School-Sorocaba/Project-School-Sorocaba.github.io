@@ -24,7 +24,7 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid #4f5986;
 }
 
-/* h1{
+ h1{
     font-size:3vw;
     font-size: 50px;
 }
@@ -32,7 +32,7 @@ body::-webkit-scrollbar-thumb {
 h1 > span{
     color:#50fa7b;
 }
-
+/*
 p{
     font-size: 30px;
 } */
@@ -43,16 +43,6 @@ p{
     display: flex;
 }
 
-.parent h1{
-    min-width: 100%;
-    font-size:50px;
-}
-
-.parent h1 > span{
-    min-width: 100%;
-    font-size: 50px;
-    color:#50fa7b;
-}
 
 .parent p{
     font-size: 40px;
