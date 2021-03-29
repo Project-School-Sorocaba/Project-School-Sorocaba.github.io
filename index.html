@@ -1,164 +1,90 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;   
-    font-family:'Saira Extra Condensed', sans-serif;;
-}
+<!DOCTYPE html>
+<html>
 
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seja bem-vindo ao nosso blog.</title>
+</head>
 
+<body>
 
-html,body{
-    background-color: #1e2233;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
+    <div class="parent" id="home">
+        <div class="sidebar">
+            <div class="menu">
+                <a href="#home">Início</a>
+                <a href="#pt">Português</a>
+                <a href="#ing">Inglês</a>
+                <a href="#art">Artes</a>
+                <a href="#edf">Educação física</a>
+            </div>
+            <!--Menu-->
+        </div>
+        <!--Sidebar-->
 
-body::-webkit-scrollbar {
-    width: 0.8em;
-}
+        <div class="content">
+            <div class=" center">
+                <div class="text">
+                    <h1>SEJA <span>BEM-VINDO</span></h1>
+                    <p>Olá! este site foi desenvolvido com o intuito de postar trabalhos feitos pelo nosso
+                        grupo.<br>Divirta-se :)</p>
+                </div>
+            </div>
+            <div class=" text center" id="pt">
+                <h1><span>PORTUGUÊS</span></h1>
+                <p>Nesta sessão você ira encontrar as atividades realizadas nas aulas de português.</p>
+                <h1>Textos <span>autobiográficos</span></h1>
+                <div class="lado">
+                    <p>Essa atividade pedia para que nós fizéssemos um texto sobre uma experiência de vida marcante,
+                        aqui estão elas:</p>
+                    <h2><a target="_blank" href="https://sway.office.com/UpHfPRJGPWcsHQlb?ref=Link">Clique aqui para
+                            acessar nossas memórias!</a></h2>
+                </div>
+                <div class="lado">
+                    <p>Essa atividade pedia para que nós fizéssemos uma resenha crítica sobre o livro "Seminário dos ratos", caso você queria acessar nossa crítica clique ao lado</p>
+                    <h2><a target="_blank" href="https://senacspedu-my.sharepoint.com/:w:/g/personal/luis_fopigatti_senacsp_edu_br/EdS3fnEWQzVDllzPNzm1ykYBLFB5Sx2TGapVNW0GM4kGoA?e=nwQbeB">Clique aqui para ler a resenha.</a></h2>
+                </div>
+            </div>
+            <div class="text center" id="ing">
+                <h1><span>INGLÊS</span></h1>
+                <p>Nesta sessão você ira encontrar as atividades realizadas nas aulas de inglês</p>
+                <h1>Pessoas <span>Gramaticais</span></h1>
+                <div class="lado">
+                    <p>Essa atividade pedia para que nós fizéssemos uma pesquisa sobre pessoas gramaticas.
+                        Para acessar nossas informações clique ao lado.
+                    </p>
+                    <h2><a target="_blank" href="https://sway.office.com/kcF0oo7IUZibiHGO?ref=Link">Clique aqui para
+                            acessar a nossa pesquisa!</a></h2>
+                </div>
+            </div>
+            <div class="text center" id="art">
+                <h1><span>ARTES</span></h1>
+                <p>Nesta sessão você ira encontrar as atividades realizadas nas aulas de artes.</p>
+                <h1>Autorretrato <span>Digital</span></h1>
+                <div class="lado">
+                    <p>Essa atividade pedia para que nós fizéssemos um autorretrato digital. E aqui
+                        estão
+                        nossos desenhos:</p>
+                    <h2><a target="_blank" href="https://sway.office.com/Yozinm9zZ7RAbbQE?ref=Link">Clique aqui para
+                            acessar o acervo de imagens!</a></h2>
+                </div>
+            </div>
+            <div class="text center" id="edf">
+                <h1><span>EDUCAÇÃO FÍSICA</span></h1>
+                <p>Nesta sessão você ira encontrar as atividades realizadas nas aulas de educação física.</p>
+                <h1><span>Brincadeiras</span></h1>
+                <div class="lado">
+                    <p>Essa atividade pedia para que nós fizéssemos uma pesquisa com nossos pais sobre as brincadeiras
+                        que eles brincavam. Você pode acessar nossas pesquisas clickando no link ao lado.</p>
+                    <h2><a target="_blank" href="https://sway.office.com/7f7ZJbdIQpbxdXdU?ref=Link">Clique aqui para
+                            acessar o acervo de imagens!</a></h2>
+                </div>
+            </div>
+        </div>
+        <!--Content-->
+    </div>
 
-body::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 10px rgba(0,0,0,0.4);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #4f5986;
-  outline: 1px solid #4f5986;
-}
-
- h1{
-    font-size:3vw;
-    font-size: 50px;
-}
-
-h1 > span{
-    color:#50fa7b;
-}
-/*
-p{
-    font-size: 30px;
-} */
-
-
-
-.parent{
-    display: flex;
-}
-
-
-.parent p{
-    font-size: 40px;
-}
-
-.sidebar{
-    width: 250px;
-    background-color:#24283d;
-    position:fixed;
-    height: 100%;
-    overflow:visible;
-
-}
-
-.sidebar a{
-    display: block;
-    color: #f8f8f8;
-    padding: 10px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 30px;
-}
-.sidebar a:hover{
-    background-color: #1e2233;
-    color:f8f8f8;
-}
-
-.menu{
-    margin-top: 100%;
-}
-
-.content{
-    color: #f8f8f8;
-    position: absolute;
-    left: 300px;
-    width: 80%;
-    height: 60%;
-    top: 40%;
-    padding:0 3%;
-}
-
-.home{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
- 
-}
-
-.text{
-    min-height: 100vh;
-}
-
-.lado{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 75px;
-    padding: 18px;
-    
-}
-
-.lado a{
-    font-size: 45px;
-    color: #50fa7b;
-    text-decoration: none;
-}
-
-
-.center{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.borda{
-    border: 1px solid red;
-} 
-
- @media screen and (max-width: 901px){
-
-    .sidebar{
-        display: none;
-    }
-
-    h1{
-        margin-left: -40%;
-        font-size: 30px;
-    }    
-    
-    h1 > span{
-        margin-left: -0.01%;
-        font-size: 30px;
-    }    
-
-    .text p{
-        margin-left: -50%;
-        font-size: 25px;
-    }
-
-    .lado{
-        gap: 85px;
-    }
-
-    .lado p{
-        margin-left: -100%;
-        left: -80%;
-        font-size: 25px;
-    }
-
-    .lado h2 > a{
-        margin-left: -100%;
-        left: -80%;
-        font-size: 25px;
-    }
-}
+</html>
