@@ -119,15 +119,16 @@ p{
 /* DESKTOP */
 @media only screen and (min-width: 768px){
     h1{
+        margin-left: -5%;
         font-size:3vw;
-    }
-    
+    } 
 
     .sidebar{
         font-size: 2vw;
     }
 
     .parent p{
+        margin-left: -5%;
         font-size: 2.5vw;
     }
     
