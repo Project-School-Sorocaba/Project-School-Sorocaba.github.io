@@ -44,8 +44,7 @@ p{
 
 
 .sidebar{
-    width: 250px;
-
+    width: 300px;
     background-color:#24283d;
     position:fixed;
     height: 100%;
@@ -119,21 +118,21 @@ p{
 /* DESKTOP */
 @media only screen and (min-width: 768px){
     h1{
-        margin-left: -5%;
-        font-size:3vw;
+        margin-left: -5.5%;
+        font-size:2.9vw;
     } 
 
     .sidebar{
-        font-size: 2vw;
+        font-size: 1.6vw;
     }
 
     .parent p{
-        margin-left: -5%;
+        margin-left: -5.5%;
         font-size: 2.5vw;
     }
     
     .lado a{
-        font-size: 3vw;
+        font-size: 2.9vw;
     }
 }
 
