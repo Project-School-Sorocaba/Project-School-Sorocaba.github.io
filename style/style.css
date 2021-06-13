@@ -40,5 +40,9 @@ h1{
 #content a{
     color: #ff6c6b;
     text-decoration: none;
-    margin-top: 100px;
+}
+
+.describe{
+    color: #9966ff;
+    font-size: 20px;
 }
